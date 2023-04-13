@@ -1,0 +1,55 @@
+:root {
+    /* variables here */
+}
+
+/* popout large sidebar */
+.sidebar {
+    width: 250px; /* Set the initial width of the sidebar */
+    position: absolute; /* Set the position to fixed or absolute */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #8c8c8c;
+    z-index: 98;
+}
+#sidebar-toggle {
+    width: 75px;
+    height: 50px;
+}
+.container.sidebar.sidebar-closed {
+    width: 0; /* Set width to 0 when sidebar is closed */
+}
+
+/* icon sidebar */
+.icon-sidebar {
+    width: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: orange;
+    z-index: 97;
+}
+
+/* header */
+header {
+    background-color: darkseagreen;
+    z-index: 99;
+}
+
+/* movies/main content */
+.movie-container {
+    border: 1px solid black;
+}
+.movie-container .row {
+    height: 40%;
+    border: 1px solid red;
+    padding: 0;
+}
+.movie-container .movie-row-name {
+    height: 20%;
+}
+.movie-card {
+    height: 90%;
+    width: 25vw;
+}

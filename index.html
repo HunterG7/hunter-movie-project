@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hunter's Movie Project</title>
+    <link rel="stylesheet" href="css/resets.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="page-wrapper">
+
+    <!-- header -->
+    <header class="container">
+        <div class="row justify-center align-center full-width">
+            <div class="column">
+                <button id="sidebar-toggle">Toggle</button>
+            </div>
+            <div class="column align-right">
+                <h1>Hunter's Movie Project</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- icon sidebar -->
+    <section class="container icon-sidebar">
+        <div class="row justify-center">
+            <div class="column justify-center"></div>
+        </div>
+    </section>
+
+    <!-- popout large sidebar -->
+    <section class="container sidebar sidebar-closed">
+        <div class="row">
+            <div class="column align-right">
+            </div>
+        </div>
+    </section>
+
+    <!-- movies/main content -->
+    <section class="container grow movie-container">
+        <div class="row">
+            <div class="column">
+                <div class="row movie-row-name">ALL MOVIES</div>
+                <!-- where all the movies live -->
+                <div class="row grow all-movies-row"></div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
